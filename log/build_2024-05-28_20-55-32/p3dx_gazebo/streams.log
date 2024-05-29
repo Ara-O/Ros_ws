@@ -1,0 +1,20 @@
+[2.931s] Invoking command in '/home/ara/ros2_ws/src/p3dx_gazebo': PYTHONPATH=/home/ara/ros2_ws/build/p3dx_gazebo/prefix_override:/home/ara/ros2_ws/install/p3dx_gazebo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/p3dx_gazebo build --build-base /home/ara/ros2_ws/build/p3dx_gazebo/build install --record /home/ara/ros2_ws/build/p3dx_gazebo/install.log --install-scripts $base/lib/p3dx_gazebo --single-version-externally-managed install_data
+[3.908s] running egg_info
+[3.909s] writing ../../build/p3dx_gazebo/p3dx_gazebo.egg-info/PKG-INFO
+[3.910s] writing dependency_links to ../../build/p3dx_gazebo/p3dx_gazebo.egg-info/dependency_links.txt
+[3.910s] writing entry points to ../../build/p3dx_gazebo/p3dx_gazebo.egg-info/entry_points.txt
+[3.922s] writing requirements to ../../build/p3dx_gazebo/p3dx_gazebo.egg-info/requires.txt
+[3.922s] writing top-level names to ../../build/p3dx_gazebo/p3dx_gazebo.egg-info/top_level.txt
+[4.095s] reading manifest file '../../build/p3dx_gazebo/p3dx_gazebo.egg-info/SOURCES.txt'
+[4.096s] writing manifest file '../../build/p3dx_gazebo/p3dx_gazebo.egg-info/SOURCES.txt'
+[4.096s] running build
+[4.096s] running build_py
+[4.097s] running install
+[4.103s] running install_lib
+[4.111s] running install_data
+[4.119s] running install_egg_info
+[4.128s] removing '/home/ara/ros2_ws/install/p3dx_gazebo/lib/python3.8/site-packages/p3dx_gazebo-0.0.0-py3.8.egg-info' (and everything under it)
+[4.128s] Copying ../../build/p3dx_gazebo/p3dx_gazebo.egg-info to /home/ara/ros2_ws/install/p3dx_gazebo/lib/python3.8/site-packages/p3dx_gazebo-0.0.0-py3.8.egg-info
+[4.130s] running install_scripts
+[4.218s] writing list of installed files to '/home/ara/ros2_ws/build/p3dx_gazebo/install.log'
+[4.327s] Invoked command in '/home/ara/ros2_ws/src/p3dx_gazebo' returned '0': PYTHONPATH=/home/ara/ros2_ws/build/p3dx_gazebo/prefix_override:/home/ara/ros2_ws/install/p3dx_gazebo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/p3dx_gazebo build --build-base /home/ara/ros2_ws/build/p3dx_gazebo/build install --record /home/ara/ros2_ws/build/p3dx_gazebo/install.log --install-scripts $base/lib/p3dx_gazebo --single-version-externally-managed install_data

@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.020057] (p3dx_description) JobQueued: {'identifier': 'p3dx_description', 'dependencies': OrderedDict()}
+[0.020124] (p3dx_gazebo) JobQueued: {'identifier': 'p3dx_gazebo', 'dependencies': OrderedDict()}
+[0.020146] (udm_pioneer_p3dx) JobQueued: {'identifier': 'udm_pioneer_p3dx', 'dependencies': OrderedDict()}
+[0.020163] (p3dx_description) JobStarted: {'identifier': 'p3dx_description'}
+[0.103110] (-) TimerEvent: {}
+[0.209657] (-) TimerEvent: {}
+[0.313302] (-) TimerEvent: {}
+[0.418663] (-) TimerEvent: {}
+[0.524113] (-) TimerEvent: {}
+[0.624983] (-) TimerEvent: {}
+[0.725799] (-) TimerEvent: {}
+[0.832590] (-) TimerEvent: {}
+[0.945420] (-) TimerEvent: {}
+[1.046606] (-) TimerEvent: {}
+[1.148171] (-) TimerEvent: {}
+[1.253339] (-) TimerEvent: {}
+[1.354997] (-) TimerEvent: {}
+[1.466292] (-) TimerEvent: {}
+[1.571183] (-) TimerEvent: {}
+[1.675761] (-) TimerEvent: {}
+[1.784775] (-) TimerEvent: {}
+[1.886088] (-) TimerEvent: {}
+[1.993111] (-) TimerEvent: {}
+[2.099488] (-) TimerEvent: {}
+[2.203576] (-) TimerEvent: {}
+[2.309464] (-) TimerEvent: {}
+[2.410238] (-) TimerEvent: {}
+[2.518094] (-) TimerEvent: {}
+[2.621400] (-) TimerEvent: {}
+[2.723719] (-) TimerEvent: {}
+[2.824497] (-) TimerEvent: {}
+[2.934659] (-) TimerEvent: {}
+[3.037349] (-) TimerEvent: {}
+[3.145489] (-) TimerEvent: {}
+[3.254097] (-) TimerEvent: {}
+[3.360826] (-) TimerEvent: {}
+[3.470978] (-) TimerEvent: {}
+[3.577692] (-) TimerEvent: {}
+[3.684315] (-) TimerEvent: {}
+[3.788397] (-) TimerEvent: {}
+[3.829473] (p3dx_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/p3dx_description', 'build', '--build-base', '/home/ara/ros2_ws/build/p3dx_description/build', 'install', '--record', '/home/ara/ros2_ws/build/p3dx_description/install.log', '--install-scripts', '$base/lib/p3dx_description', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ara/ros2_ws/src/p3dx_description', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ara', 'SSH_AGENT_PID': '941', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ara', 'OLDPWD': '/home/ara/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '779', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ara/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ara', 'JOURNAL_STREAM': '8:28912', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ara', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ara-VirtualBox:@/tmp/.ICE-unix/980,unix/ara-VirtualBox:/tmp/.ICE-unix/980', 'INVOCATION_ID': 'f283b227efbf48fb8e0d09ec4e65962d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/eee323af_7cee_46ed_8dd7_8fc3644e06aa', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.74', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ara/ros2_ws/install/p3dx_description:/opt/ros/foxy:/home/ara/ros2_ws/install/udm_pioneer_p3dx:/home/ara/ros2_ws/install/p3dx_gazebo', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ara/ros2_ws/build/p3dx_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ara/ros2_ws/build/p3dx_description/prefix_override:/home/ara/ros2_ws/install/p3dx_description/lib/python3.8/site-packages:/home/ara/ros2_ws/install/p3dx_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages:/home/ara/ros2_ws/install/p3dx_gazebo/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[3.888928] (-) TimerEvent: {}
+[3.994434] (-) TimerEvent: {}
+[4.101904] (-) TimerEvent: {}
+[4.203574] (-) TimerEvent: {}
+[4.310432] (-) TimerEvent: {}
+[4.414896] (-) TimerEvent: {}
+[4.517515] (-) TimerEvent: {}
+[4.625330] (-) TimerEvent: {}
+[4.726518] (-) TimerEvent: {}
+[4.838326] (-) TimerEvent: {}
+[4.944782] (-) TimerEvent: {}
+[5.049237] (-) TimerEvent: {}
+[5.101480] (p3dx_description) StdoutLine: {'line': b'running egg_info\n'}
+[5.111498] (p3dx_description) StdoutLine: {'line': b'writing ../../build/p3dx_description/p3dx_description.egg-info/PKG-INFO\n'}
+[5.113436] (p3dx_description) StdoutLine: {'line': b'writing dependency_links to ../../build/p3dx_description/p3dx_description.egg-info/dependency_links.txt\n'}
+[5.113798] (p3dx_description) StdoutLine: {'line': b'writing entry points to ../../build/p3dx_description/p3dx_description.egg-info/entry_points.txt\n'}
+[5.114107] (p3dx_description) StdoutLine: {'line': b'writing requirements to ../../build/p3dx_description/p3dx_description.egg-info/requires.txt\n'}
+[5.114406] (p3dx_description) StdoutLine: {'line': b'writing top-level names to ../../build/p3dx_description/p3dx_description.egg-info/top_level.txt\n'}
+[5.154013] (-) TimerEvent: {}
+[5.255919] (-) TimerEvent: {}
+[5.332021] (p3dx_description) StdoutLine: {'line': b"reading manifest file '../../build/p3dx_description/p3dx_description.egg-info/SOURCES.txt'\n"}
+[5.339163] (p3dx_description) StdoutLine: {'line': b"writing manifest file '../../build/p3dx_description/p3dx_description.egg-info/SOURCES.txt'\n"}
+[5.339635] (p3dx_description) StdoutLine: {'line': b'running build\n'}
+[5.339804] (p3dx_description) StdoutLine: {'line': b'running build_py\n'}
+[5.340174] (p3dx_description) StdoutLine: {'line': b'running install\n'}
+[5.345210] (p3dx_description) StdoutLine: {'line': b'running install_lib\n'}
+[5.357879] (-) TimerEvent: {}
+[5.359785] (p3dx_description) StdoutLine: {'line': b'running install_data\n'}
+[5.360158] (p3dx_description) StdoutLine: {'line': b'copying urdf/pioneer3dx.xacro -> /home/ara/ros2_ws/install/p3dx_description/share/p3dx_description\n'}
+[5.360423] (p3dx_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.364029] (p3dx_description) StdoutLine: {'line': b"removing '/home/ara/ros2_ws/install/p3dx_description/lib/python3.8/site-packages/p3dx_description-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.373591] (p3dx_description) StdoutLine: {'line': b'Copying ../../build/p3dx_description/p3dx_description.egg-info to /home/ara/ros2_ws/install/p3dx_description/lib/python3.8/site-packages/p3dx_description-0.0.0-py3.8.egg-info\n'}
+[5.383057] (p3dx_description) StdoutLine: {'line': b'running install_scripts\n'}
+[5.461032] (-) TimerEvent: {}
+[5.497209] (p3dx_description) StdoutLine: {'line': b"writing list of installed files to '/home/ara/ros2_ws/build/p3dx_description/install.log'\n"}
+[5.567005] (-) TimerEvent: {}
+[5.645463] (p3dx_description) CommandEnded: {'returncode': 0}
+[5.667785] (-) TimerEvent: {}
+[5.698151] (p3dx_description) JobEnded: {'identifier': 'p3dx_description', 'rc': 0}
+[5.698880] (p3dx_gazebo) JobStarted: {'identifier': 'p3dx_gazebo'}
+[5.846706] (-) TimerEvent: {}
+[5.954992] (-) TimerEvent: {}
+[6.055588] (-) TimerEvent: {}
+[6.157032] (-) TimerEvent: {}
+[6.259394] (-) TimerEvent: {}
+[6.365674] (-) TimerEvent: {}
+[6.470653] (-) TimerEvent: {}
+[6.572281] (-) TimerEvent: {}
+[6.677932] (-) TimerEvent: {}
+[6.779062] (-) TimerEvent: {}
+[6.881384] (-) TimerEvent: {}
+[6.987089] (-) TimerEvent: {}
+[7.092722] (-) TimerEvent: {}
+[7.195121] (-) TimerEvent: {}
+[7.300493] (-) TimerEvent: {}
+[7.402262] (-) TimerEvent: {}
+[7.502844] (-) TimerEvent: {}
+[7.603189] (-) TimerEvent: {}
+[7.705483] (-) TimerEvent: {}
+[7.810301] (-) TimerEvent: {}
+[7.915400] (-) TimerEvent: {}
+[8.020691] (-) TimerEvent: {}
+[8.121584] (-) TimerEvent: {}
+[8.228794] (-) TimerEvent: {}
+[8.332893] (-) TimerEvent: {}
+[8.433842] (-) TimerEvent: {}
+[8.537969] (-) TimerEvent: {}
+[8.642388] (-) TimerEvent: {}
+[8.750878] (-) TimerEvent: {}
+[8.857557] (-) TimerEvent: {}
+[8.958964] (-) TimerEvent: {}
+[9.065598] (-) TimerEvent: {}
+[9.166463] (-) TimerEvent: {}
+[9.269803] (-) TimerEvent: {}
+[9.373672] (-) TimerEvent: {}
+[9.475517] (-) TimerEvent: {}
+[9.525865] (p3dx_gazebo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/p3dx_gazebo', 'build', '--build-base', '/home/ara/ros2_ws/build/p3dx_gazebo/build', 'install', '--record', '/home/ara/ros2_ws/build/p3dx_gazebo/install.log', '--install-scripts', '$base/lib/p3dx_gazebo', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ara/ros2_ws/src/p3dx_gazebo', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ara', 'SSH_AGENT_PID': '941', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ara', 'OLDPWD': '/home/ara/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '779', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ara/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ara', 'JOURNAL_STREAM': '8:28912', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ara', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ara-VirtualBox:@/tmp/.ICE-unix/980,unix/ara-VirtualBox:/tmp/.ICE-unix/980', 'INVOCATION_ID': 'f283b227efbf48fb8e0d09ec4e65962d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/eee323af_7cee_46ed_8dd7_8fc3644e06aa', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.74', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ara/ros2_ws/install/p3dx_description:/opt/ros/foxy:/home/ara/ros2_ws/install/udm_pioneer_p3dx:/home/ara/ros2_ws/install/p3dx_gazebo', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ara/ros2_ws/build/p3dx_gazebo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ara/ros2_ws/build/p3dx_gazebo/prefix_override:/home/ara/ros2_ws/install/p3dx_gazebo/lib/python3.8/site-packages:/home/ara/ros2_ws/install/p3dx_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages:/home/ara/ros2_ws/install/p3dx_gazebo/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[9.581696] (-) TimerEvent: {}
+[9.682571] (-) TimerEvent: {}
+[9.790296] (-) TimerEvent: {}
+[9.896941] (-) TimerEvent: {}
+[10.002938] (-) TimerEvent: {}
+[10.111224] (-) TimerEvent: {}
+[10.216533] (-) TimerEvent: {}
+[10.318059] (-) TimerEvent: {}
+[10.424769] (-) TimerEvent: {}
+[10.526193] (-) TimerEvent: {}
+[10.630591] (-) TimerEvent: {}
+[10.732299] (-) TimerEvent: {}
+[10.814629] (p3dx_gazebo) StdoutLine: {'line': b'running egg_info\n'}
+[10.815755] (p3dx_gazebo) StdoutLine: {'line': b'writing ../../build/p3dx_gazebo/p3dx_gazebo.egg-info/PKG-INFO\n'}
+[10.817012] (p3dx_gazebo) StdoutLine: {'line': b'writing dependency_links to ../../build/p3dx_gazebo/p3dx_gazebo.egg-info/dependency_links.txt\n'}
+[10.817391] (p3dx_gazebo) StdoutLine: {'line': b'writing entry points to ../../build/p3dx_gazebo/p3dx_gazebo.egg-info/entry_points.txt\n'}
+[10.817725] (p3dx_gazebo) StdoutLine: {'line': b'writing requirements to ../../build/p3dx_gazebo/p3dx_gazebo.egg-info/requires.txt\n'}
+[10.827934] (p3dx_gazebo) StdoutLine: {'line': b'writing top-level names to ../../build/p3dx_gazebo/p3dx_gazebo.egg-info/top_level.txt\n'}
+[10.835817] (-) TimerEvent: {}
+[10.941095] (-) TimerEvent: {}
+[11.050350] (-) TimerEvent: {}
+[11.081584] (p3dx_gazebo) StdoutLine: {'line': b"reading manifest file '../../build/p3dx_gazebo/p3dx_gazebo.egg-info/SOURCES.txt'\n"}
+[11.082658] (p3dx_gazebo) StdoutLine: {'line': b"writing manifest file '../../build/p3dx_gazebo/p3dx_gazebo.egg-info/SOURCES.txt'\n"}
+[11.083000] (p3dx_gazebo) StdoutLine: {'line': b'running build\n'}
+[11.083157] (p3dx_gazebo) StdoutLine: {'line': b'running build_py\n'}
+[11.094762] (p3dx_gazebo) StdoutLine: {'line': b'running install\n'}
+[11.104326] (p3dx_gazebo) StdoutLine: {'line': b'running install_lib\n'}
+[11.107508] (p3dx_gazebo) StdoutLine: {'line': b'running install_data\n'}
+[11.108022] (p3dx_gazebo) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.124721] (p3dx_gazebo) StdoutLine: {'line': b"removing '/home/ara/ros2_ws/install/p3dx_gazebo/lib/python3.8/site-packages/p3dx_gazebo-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[11.125325] (p3dx_gazebo) StdoutLine: {'line': b'Copying ../../build/p3dx_gazebo/p3dx_gazebo.egg-info to /home/ara/ros2_ws/install/p3dx_gazebo/lib/python3.8/site-packages/p3dx_gazebo-0.0.0-py3.8.egg-info\n'}
+[11.130877] (p3dx_gazebo) StdoutLine: {'line': b'running install_scripts\n'}
+[11.153358] (-) TimerEvent: {}
+[11.249386] (p3dx_gazebo) StdoutLine: {'line': b"writing list of installed files to '/home/ara/ros2_ws/build/p3dx_gazebo/install.log'\n"}
+[11.257606] (-) TimerEvent: {}
+[11.364960] (-) TimerEvent: {}
+[11.380802] (p3dx_gazebo) CommandEnded: {'returncode': 0}
+[11.426479] (p3dx_gazebo) JobEnded: {'identifier': 'p3dx_gazebo', 'rc': 0}
+[11.430227] (udm_pioneer_p3dx) JobStarted: {'identifier': 'udm_pioneer_p3dx'}
+[11.476709] (-) TimerEvent: {}
+[11.585141] (-) TimerEvent: {}
+[11.685963] (-) TimerEvent: {}
+[11.792104] (-) TimerEvent: {}
+[11.898910] (-) TimerEvent: {}
+[12.002022] (-) TimerEvent: {}
+[12.104319] (-) TimerEvent: {}
+[12.216563] (-) TimerEvent: {}
+[12.326379] (-) TimerEvent: {}
+[12.430638] (-) TimerEvent: {}
+[12.531861] (-) TimerEvent: {}
+[12.634758] (-) TimerEvent: {}
+[12.736133] (-) TimerEvent: {}
+[12.838469] (-) TimerEvent: {}
+[12.939419] (-) TimerEvent: {}
+[13.041324] (-) TimerEvent: {}
+[13.149406] (-) TimerEvent: {}
+[13.254504] (-) TimerEvent: {}
+[13.357262] (-) TimerEvent: {}
+[13.462208] (-) TimerEvent: {}
+[13.562693] (-) TimerEvent: {}
+[13.666153] (-) TimerEvent: {}
+[13.766911] (-) TimerEvent: {}
+[13.867378] (-) TimerEvent: {}
+[13.972727] (-) TimerEvent: {}
+[14.077302] (-) TimerEvent: {}
+[14.182449] (-) TimerEvent: {}
+[14.283669] (-) TimerEvent: {}
+[14.387063] (-) TimerEvent: {}
+[14.490470] (-) TimerEvent: {}
+[14.592178] (-) TimerEvent: {}
+[14.695246] (-) TimerEvent: {}
+[14.802474] (-) TimerEvent: {}
+[14.911911] (-) TimerEvent: {}
+[15.015165] (-) TimerEvent: {}
+[15.076840] (udm_pioneer_p3dx) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/udm_pioneer_p3dx', 'build', '--build-base', '/home/ara/ros2_ws/build/udm_pioneer_p3dx/build', 'install', '--record', '/home/ara/ros2_ws/build/udm_pioneer_p3dx/install.log', '--install-scripts', '$base/lib/udm_pioneer_p3dx', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ara/ros2_ws/src/udm_pioneer_p3dx', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ara', 'SSH_AGENT_PID': '941', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ara', 'OLDPWD': '/home/ara/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '779', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ara/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ara', 'JOURNAL_STREAM': '8:28912', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ara', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ara-VirtualBox:@/tmp/.ICE-unix/980,unix/ara-VirtualBox:/tmp/.ICE-unix/980', 'INVOCATION_ID': 'f283b227efbf48fb8e0d09ec4e65962d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/eee323af_7cee_46ed_8dd7_8fc3644e06aa', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.74', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ara/ros2_ws/install/p3dx_description:/opt/ros/foxy:/home/ara/ros2_ws/install/udm_pioneer_p3dx:/home/ara/ros2_ws/install/p3dx_gazebo', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ara/ros2_ws/build/udm_pioneer_p3dx', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ara/ros2_ws/build/udm_pioneer_p3dx/prefix_override:/home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages:/home/ara/ros2_ws/install/p3dx_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages:/home/ara/ros2_ws/install/p3dx_gazebo/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[15.116714] (-) TimerEvent: {}
+[15.221206] (-) TimerEvent: {}
+[15.332828] (-) TimerEvent: {}
+[15.437924] (-) TimerEvent: {}
+[15.547721] (-) TimerEvent: {}
+[15.655269] (-) TimerEvent: {}
+[15.755628] (-) TimerEvent: {}
+[15.859263] (-) TimerEvent: {}
+[15.962372] (-) TimerEvent: {}
+[16.065676] (-) TimerEvent: {}
+[16.170535] (-) TimerEvent: {}
+[16.271332] (-) TimerEvent: {}
+[16.345434] (udm_pioneer_p3dx) StdoutLine: {'line': b'running egg_info\n'}
+[16.356397] (udm_pioneer_p3dx) StdoutLine: {'line': b'writing ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/PKG-INFO\n'}
+[16.360886] (udm_pioneer_p3dx) StdoutLine: {'line': b'writing dependency_links to ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/dependency_links.txt\n'}
+[16.361275] (udm_pioneer_p3dx) StdoutLine: {'line': b'writing entry points to ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/entry_points.txt\n'}
+[16.361596] (udm_pioneer_p3dx) StdoutLine: {'line': b'writing requirements to ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/requires.txt\n'}
+[16.361906] (udm_pioneer_p3dx) StdoutLine: {'line': b'writing top-level names to ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/top_level.txt\n'}
+[16.378271] (-) TimerEvent: {}
+[16.486483] (-) TimerEvent: {}
+[16.580621] (udm_pioneer_p3dx) StdoutLine: {'line': b"reading manifest file '../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/SOURCES.txt'\n"}
+[16.581835] (udm_pioneer_p3dx) StdoutLine: {'line': b"writing manifest file '../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/SOURCES.txt'\n"}
+[16.589274] (-) TimerEvent: {}
+[16.591143] (udm_pioneer_p3dx) StdoutLine: {'line': b'running build\n'}
+[16.591353] (udm_pioneer_p3dx) StdoutLine: {'line': b'running build_py\n'}
+[16.591729] (udm_pioneer_p3dx) StdoutLine: {'line': b'running install\n'}
+[16.596028] (udm_pioneer_p3dx) StdoutLine: {'line': b'running install_lib\n'}
+[16.606413] (udm_pioneer_p3dx) StdoutLine: {'line': b'running install_data\n'}
+[16.607060] (udm_pioneer_p3dx) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.625595] (udm_pioneer_p3dx) StdoutLine: {'line': b"removing '/home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages/udm_pioneer_p3dx-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[16.630418] (udm_pioneer_p3dx) StdoutLine: {'line': b'Copying ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info to /home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages/udm_pioneer_p3dx-0.0.0-py3.8.egg-info\n'}
+[16.635053] (udm_pioneer_p3dx) StdoutLine: {'line': b'running install_scripts\n'}
+[16.690717] (-) TimerEvent: {}
+[16.751671] (udm_pioneer_p3dx) StdoutLine: {'line': b"writing list of installed files to '/home/ara/ros2_ws/build/udm_pioneer_p3dx/install.log'\n"}
+[16.798448] (-) TimerEvent: {}
+[16.892824] (udm_pioneer_p3dx) CommandEnded: {'returncode': 0}
+[16.901976] (-) TimerEvent: {}
+[16.935978] (udm_pioneer_p3dx) JobEnded: {'identifier': 'udm_pioneer_p3dx', 'rc': 0}
+[16.937068] (-) EventReactorShutdown: {}

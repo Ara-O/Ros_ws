@@ -1,0 +1,36 @@
+[1.737s] Invoking command in '/home/ara/ros2_ws/src/p3dx_gazebo': PYTHONPATH=/home/ara/ros2_ws/src/build/p3dx_gazebo/prefix_override:/home/ara/ros2_ws/src/install/p3dx_gazebo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/p3dx_gazebo build --build-base /home/ara/ros2_ws/src/build/p3dx_gazebo/build install --record /home/ara/ros2_ws/src/build/p3dx_gazebo/install.log --install-scripts $base/lib/p3dx_gazebo --single-version-externally-managed install_data
+[2.172s] running egg_info
+[2.173s] creating ../build/p3dx_gazebo/p3dx_gazebo.egg-info
+[2.173s] writing ../build/p3dx_gazebo/p3dx_gazebo.egg-info/PKG-INFO
+[2.173s] writing dependency_links to ../build/p3dx_gazebo/p3dx_gazebo.egg-info/dependency_links.txt
+[2.174s] writing entry points to ../build/p3dx_gazebo/p3dx_gazebo.egg-info/entry_points.txt
+[2.174s] writing requirements to ../build/p3dx_gazebo/p3dx_gazebo.egg-info/requires.txt
+[2.174s] writing top-level names to ../build/p3dx_gazebo/p3dx_gazebo.egg-info/top_level.txt
+[2.176s] writing manifest file '../build/p3dx_gazebo/p3dx_gazebo.egg-info/SOURCES.txt'
+[2.254s] reading manifest file '../build/p3dx_gazebo/p3dx_gazebo.egg-info/SOURCES.txt'
+[2.255s] writing manifest file '../build/p3dx_gazebo/p3dx_gazebo.egg-info/SOURCES.txt'
+[2.255s] running build
+[2.255s] running build_py
+[2.256s] creating /home/ara/ros2_ws/src/build/p3dx_gazebo/build
+[2.256s] creating /home/ara/ros2_ws/src/build/p3dx_gazebo/build/lib
+[2.256s] creating /home/ara/ros2_ws/src/build/p3dx_gazebo/build/lib/p3dx_gazebo
+[2.256s] copying p3dx_gazebo/__init__.py -> /home/ara/ros2_ws/src/build/p3dx_gazebo/build/lib/p3dx_gazebo
+[2.256s] running install
+[2.257s] running install_lib
+[2.259s] creating /home/ara/ros2_ws/src/install/p3dx_gazebo/lib/python3.8/site-packages/p3dx_gazebo
+[2.259s] copying /home/ara/ros2_ws/src/build/p3dx_gazebo/build/lib/p3dx_gazebo/__init__.py -> /home/ara/ros2_ws/src/install/p3dx_gazebo/lib/python3.8/site-packages/p3dx_gazebo
+[2.259s] byte-compiling /home/ara/ros2_ws/src/install/p3dx_gazebo/lib/python3.8/site-packages/p3dx_gazebo/__init__.py to __init__.cpython-38.pyc
+[2.262s] running install_data
+[2.265s] creating /home/ara/ros2_ws/src/install/p3dx_gazebo/share/ament_index
+[2.265s] creating /home/ara/ros2_ws/src/install/p3dx_gazebo/share/ament_index/resource_index
+[2.265s] creating /home/ara/ros2_ws/src/install/p3dx_gazebo/share/ament_index/resource_index/packages
+[2.266s] copying resource/p3dx_gazebo -> /home/ara/ros2_ws/src/install/p3dx_gazebo/share/ament_index/resource_index/packages
+[2.266s] copying package.xml -> /home/ara/ros2_ws/src/install/p3dx_gazebo/share/p3dx_gazebo
+[2.266s] creating /home/ara/ros2_ws/src/install/p3dx_gazebo/share/p3dx_gazebo/launch
+[2.267s] copying launch/robots44211.launch.py -> /home/ara/ros2_ws/src/install/p3dx_gazebo/share/p3dx_gazebo/launch
+[2.267s] copying launch/one_robot.launch.py -> /home/ara/ros2_ws/src/install/p3dx_gazebo/share/p3dx_gazebo/launch
+[2.267s] running install_egg_info
+[2.270s] Copying ../build/p3dx_gazebo/p3dx_gazebo.egg-info to /home/ara/ros2_ws/src/install/p3dx_gazebo/lib/python3.8/site-packages/p3dx_gazebo-0.0.0-py3.8.egg-info
+[2.272s] running install_scripts
+[2.310s] writing list of installed files to '/home/ara/ros2_ws/src/build/p3dx_gazebo/install.log'
+[2.364s] Invoked command in '/home/ara/ros2_ws/src/p3dx_gazebo' returned '0': PYTHONPATH=/home/ara/ros2_ws/src/build/p3dx_gazebo/prefix_override:/home/ara/ros2_ws/src/install/p3dx_gazebo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/p3dx_gazebo build --build-base /home/ara/ros2_ws/src/build/p3dx_gazebo/build install --record /home/ara/ros2_ws/src/build/p3dx_gazebo/install.log --install-scripts $base/lib/p3dx_gazebo --single-version-externally-managed install_data

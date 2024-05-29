@@ -1,0 +1,20 @@
+[0.715s] Invoking command in '/home/ara/ros2_ws/src/udm_pioneer_p3dx': PYTHONPATH=/home/ara/ros2_ws/build/udm_pioneer_p3dx/prefix_override:/home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/udm_pioneer_p3dx build --build-base /home/ara/ros2_ws/build/udm_pioneer_p3dx/build install --record /home/ara/ros2_ws/build/udm_pioneer_p3dx/install.log --install-scripts $base/lib/udm_pioneer_p3dx --single-version-externally-managed install_data
+[0.984s] running egg_info
+[0.985s] writing ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/PKG-INFO
+[0.985s] writing dependency_links to ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/dependency_links.txt
+[0.985s] writing entry points to ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/entry_points.txt
+[0.986s] writing requirements to ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/requires.txt
+[0.987s] writing top-level names to ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/top_level.txt
+[1.038s] reading manifest file '../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/SOURCES.txt'
+[1.039s] writing manifest file '../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/SOURCES.txt'
+[1.040s] running build
+[1.040s] running build_py
+[1.041s] running install
+[1.041s] running install_lib
+[1.043s] running install_data
+[1.043s] running install_egg_info
+[1.046s] removing '/home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages/udm_pioneer_p3dx-0.0.0-py3.8.egg-info' (and everything under it)
+[1.046s] Copying ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info to /home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages/udm_pioneer_p3dx-0.0.0-py3.8.egg-info
+[1.047s] running install_scripts
+[1.066s] writing list of installed files to '/home/ara/ros2_ws/build/udm_pioneer_p3dx/install.log'
+[1.092s] Invoked command in '/home/ara/ros2_ws/src/udm_pioneer_p3dx' returned '0': PYTHONPATH=/home/ara/ros2_ws/build/udm_pioneer_p3dx/prefix_override:/home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/udm_pioneer_p3dx build --build-base /home/ara/ros2_ws/build/udm_pioneer_p3dx/build install --record /home/ara/ros2_ws/build/udm_pioneer_p3dx/install.log --install-scripts $base/lib/udm_pioneer_p3dx --single-version-externally-managed install_data

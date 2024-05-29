@@ -1,0 +1,236 @@
+[0.389s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.389s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd2266d06a0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=1, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd2266d06a0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fd2265ac910>)
+[0.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.644s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ara/ros2_ws'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_description) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_description) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_description) by extension 'ignore_ament_install'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_description) by extensions ['colcon_pkg']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_description) by extension 'colcon_pkg'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_description) by extensions ['colcon_meta']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_description) by extension 'colcon_meta'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_description) by extensions ['ros']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_description) by extension 'ros'
+[0.679s] DEBUG:colcon.colcon_core.package_identification:Package 'src/p3dx_description' with type 'ros.ament_python' and name 'p3dx_description'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_gazebo) by extension 'ignore'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_gazebo) by extension 'ignore_ament_install'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_gazebo) by extensions ['colcon_pkg']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_gazebo) by extension 'colcon_pkg'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_gazebo) by extensions ['colcon_meta']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_gazebo) by extension 'colcon_meta'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_gazebo) by extensions ['ros']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/p3dx_gazebo) by extension 'ros'
+[0.683s] DEBUG:colcon.colcon_core.package_identification:Package 'src/p3dx_gazebo' with type 'ros.ament_python' and name 'p3dx_gazebo'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/udm_pioneer_p3dx) by extensions ['ignore', 'ignore_ament_install']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/udm_pioneer_p3dx) by extension 'ignore'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/udm_pioneer_p3dx) by extension 'ignore_ament_install'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/udm_pioneer_p3dx) by extensions ['colcon_pkg']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/udm_pioneer_p3dx) by extension 'colcon_pkg'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/udm_pioneer_p3dx) by extensions ['colcon_meta']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/udm_pioneer_p3dx) by extension 'colcon_meta'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/udm_pioneer_p3dx) by extensions ['ros']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/udm_pioneer_p3dx) by extension 'ros'
+[0.684s] DEBUG:colcon.colcon_core.package_identification:Package 'src/udm_pioneer_p3dx' with type 'ros.ament_python' and name 'udm_pioneer_p3dx'
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.718s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.718s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.720s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/ara/ros2_ws/install
+[0.720s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 162 installed packages in /opt/ros/foxy
+[0.726s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'cmake_args' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'cmake_target' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.792s] DEBUG:colcon.colcon_core.verb:Building package 'p3dx_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ara/ros2_ws/build/p3dx_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ara/ros2_ws/install/p3dx_description', 'merge_install': False, 'path': '/home/ara/ros2_ws/src/p3dx_description', 'symlink_install': False, 'test_result_base': None}
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.793s] DEBUG:colcon.colcon_core.verb:Building package 'p3dx_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ara/ros2_ws/build/p3dx_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ara/ros2_ws/install/p3dx_gazebo', 'merge_install': False, 'path': '/home/ara/ros2_ws/src/p3dx_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'udm_pioneer_p3dx' build argument 'cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'udm_pioneer_p3dx' build argument 'cmake_target' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'udm_pioneer_p3dx' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'udm_pioneer_p3dx' build argument 'cmake_clean_cache' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'udm_pioneer_p3dx' build argument 'cmake_clean_first' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'udm_pioneer_p3dx' build argument 'cmake_force_configure' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'udm_pioneer_p3dx' build argument 'ament_cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'udm_pioneer_p3dx' build argument 'catkin_cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'udm_pioneer_p3dx' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.793s] DEBUG:colcon.colcon_core.verb:Building package 'udm_pioneer_p3dx' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ara/ros2_ws/build/udm_pioneer_p3dx', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ara/ros2_ws/install/udm_pioneer_p3dx', 'merge_install': False, 'path': '/home/ara/ros2_ws/src/udm_pioneer_p3dx', 'symlink_install': False, 'test_result_base': None}
+[0.793s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.794s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ara/ros2_ws/src/p3dx_description' with build type 'ament_python'
+[0.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('p3dx_description', 'ament_prefix_path')
+[0.796s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ara/ros2_ws/install/p3dx_description/share/p3dx_description/hook/ament_prefix_path.ps1'
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ara/ros2_ws/install/p3dx_description/share/p3dx_description/hook/ament_prefix_path.dsv'
+[0.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ara/ros2_ws/install/p3dx_description/share/p3dx_description/hook/ament_prefix_path.sh'
+[0.804s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.804s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.320s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ara/ros2_ws/src/p3dx_description'
+[1.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.320s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ara/ros2_ws/src/p3dx_description': PYTHONPATH=/home/ara/ros2_ws/build/p3dx_description/prefix_override:/home/ara/ros2_ws/install/p3dx_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/p3dx_description build --build-base /home/ara/ros2_ws/build/p3dx_description/build install --record /home/ara/ros2_ws/build/p3dx_description/install.log --install-scripts $base/lib/p3dx_description --single-version-externally-managed install_data
+[3.046s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/p3dx_description' for CMake module files
+[3.046s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/p3dx_description' for CMake config files
+[3.047s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/p3dx_description/lib'
+[3.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ara/ros2_ws/src/p3dx_description' returned '0': PYTHONPATH=/home/ara/ros2_ws/build/p3dx_description/prefix_override:/home/ara/ros2_ws/install/p3dx_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/p3dx_description build --build-base /home/ara/ros2_ws/build/p3dx_description/build install --record /home/ara/ros2_ws/build/p3dx_description/install.log --install-scripts $base/lib/p3dx_description --single-version-externally-managed install_data
+[3.054s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/p3dx_description/bin'
+[3.054s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/p3dx_description/lib/pkgconfig/p3dx_description.pc'
+[3.055s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/p3dx_description/lib/python3.8/site-packages'
+[3.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('p3dx_description', 'pythonpath')
+[3.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ara/ros2_ws/install/p3dx_description/share/p3dx_description/hook/pythonpath.ps1'
+[3.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ara/ros2_ws/install/p3dx_description/share/p3dx_description/hook/pythonpath.dsv'
+[3.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ara/ros2_ws/install/p3dx_description/share/p3dx_description/hook/pythonpath.sh'
+[3.056s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/p3dx_description/bin'
+[3.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(p3dx_description)
+[3.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/ara/ros2_ws/install/p3dx_description/share/p3dx_description/package.ps1'
+[3.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ara/ros2_ws/install/p3dx_description/share/p3dx_description/package.dsv'
+[3.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/ara/ros2_ws/install/p3dx_description/share/p3dx_description/package.sh'
+[3.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/ara/ros2_ws/install/p3dx_description/share/p3dx_description/package.bash'
+[3.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/ara/ros2_ws/install/p3dx_description/share/p3dx_description/package.zsh'
+[3.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ara/ros2_ws/install/p3dx_description/share/colcon-core/packages/p3dx_description)
+[3.065s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ara/ros2_ws/src/p3dx_gazebo' with build type 'ament_python'
+[3.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('p3dx_gazebo', 'ament_prefix_path')
+[3.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ara/ros2_ws/install/p3dx_gazebo/share/p3dx_gazebo/hook/ament_prefix_path.ps1'
+[3.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ara/ros2_ws/install/p3dx_gazebo/share/p3dx_gazebo/hook/ament_prefix_path.dsv'
+[3.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ara/ros2_ws/install/p3dx_gazebo/share/p3dx_gazebo/hook/ament_prefix_path.sh'
+[3.072s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.072s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.887s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ara/ros2_ws/src/p3dx_gazebo'
+[3.887s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.887s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ara/ros2_ws/src/p3dx_gazebo': PYTHONPATH=/home/ara/ros2_ws/build/p3dx_gazebo/prefix_override:/home/ara/ros2_ws/install/p3dx_gazebo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/p3dx_gazebo build --build-base /home/ara/ros2_ws/build/p3dx_gazebo/build install --record /home/ara/ros2_ws/build/p3dx_gazebo/install.log --install-scripts $base/lib/p3dx_gazebo --single-version-externally-managed install_data
+[5.806s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/p3dx_gazebo' for CMake module files
+[5.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ara/ros2_ws/src/p3dx_gazebo' returned '0': PYTHONPATH=/home/ara/ros2_ws/build/p3dx_gazebo/prefix_override:/home/ara/ros2_ws/install/p3dx_gazebo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/p3dx_gazebo build --build-base /home/ara/ros2_ws/build/p3dx_gazebo/build install --record /home/ara/ros2_ws/build/p3dx_gazebo/install.log --install-scripts $base/lib/p3dx_gazebo --single-version-externally-managed install_data
+[5.809s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/p3dx_gazebo' for CMake config files
+[5.810s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/p3dx_gazebo/lib'
+[5.810s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/p3dx_gazebo/bin'
+[5.810s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/p3dx_gazebo/lib/pkgconfig/p3dx_gazebo.pc'
+[5.811s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/p3dx_gazebo/lib/python3.8/site-packages'
+[5.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('p3dx_gazebo', 'pythonpath')
+[5.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ara/ros2_ws/install/p3dx_gazebo/share/p3dx_gazebo/hook/pythonpath.ps1'
+[5.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ara/ros2_ws/install/p3dx_gazebo/share/p3dx_gazebo/hook/pythonpath.dsv'
+[5.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ara/ros2_ws/install/p3dx_gazebo/share/p3dx_gazebo/hook/pythonpath.sh'
+[5.818s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/p3dx_gazebo/bin'
+[5.818s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(p3dx_gazebo)
+[5.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/ara/ros2_ws/install/p3dx_gazebo/share/p3dx_gazebo/package.ps1'
+[5.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ara/ros2_ws/install/p3dx_gazebo/share/p3dx_gazebo/package.dsv'
+[5.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/ara/ros2_ws/install/p3dx_gazebo/share/p3dx_gazebo/package.sh'
+[5.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/ara/ros2_ws/install/p3dx_gazebo/share/p3dx_gazebo/package.bash'
+[5.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/ara/ros2_ws/install/p3dx_gazebo/share/p3dx_gazebo/package.zsh'
+[5.823s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ara/ros2_ws/install/p3dx_gazebo/share/colcon-core/packages/p3dx_gazebo)
+[5.824s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ara/ros2_ws/src/udm_pioneer_p3dx' with build type 'ament_python'
+[5.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('udm_pioneer_p3dx', 'ament_prefix_path')
+[5.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ara/ros2_ws/install/udm_pioneer_p3dx/share/udm_pioneer_p3dx/hook/ament_prefix_path.ps1'
+[5.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ara/ros2_ws/install/udm_pioneer_p3dx/share/udm_pioneer_p3dx/hook/ament_prefix_path.dsv'
+[5.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ara/ros2_ws/install/udm_pioneer_p3dx/share/udm_pioneer_p3dx/hook/ament_prefix_path.sh'
+[5.828s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.353s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ara/ros2_ws/src/udm_pioneer_p3dx'
+[6.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ara/ros2_ws/src/udm_pioneer_p3dx': PYTHONPATH=/home/ara/ros2_ws/build/udm_pioneer_p3dx/prefix_override:/home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/udm_pioneer_p3dx build --build-base /home/ara/ros2_ws/build/udm_pioneer_p3dx/build install --record /home/ara/ros2_ws/build/udm_pioneer_p3dx/install.log --install-scripts $base/lib/udm_pioneer_p3dx --single-version-externally-managed install_data
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/udm_pioneer_p3dx' for CMake module files
+[7.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ara/ros2_ws/src/udm_pioneer_p3dx' returned '0': PYTHONPATH=/home/ara/ros2_ws/build/udm_pioneer_p3dx/prefix_override:/home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/udm_pioneer_p3dx build --build-base /home/ara/ros2_ws/build/udm_pioneer_p3dx/build install --record /home/ara/ros2_ws/build/udm_pioneer_p3dx/install.log --install-scripts $base/lib/udm_pioneer_p3dx --single-version-externally-managed install_data
+[7.817s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/udm_pioneer_p3dx' for CMake config files
+[7.817s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/udm_pioneer_p3dx/lib'
+[7.817s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/udm_pioneer_p3dx/bin'
+[7.817s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/pkgconfig/udm_pioneer_p3dx.pc'
+[7.818s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages'
+[7.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('udm_pioneer_p3dx', 'pythonpath')
+[7.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ara/ros2_ws/install/udm_pioneer_p3dx/share/udm_pioneer_p3dx/hook/pythonpath.ps1'
+[7.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ara/ros2_ws/install/udm_pioneer_p3dx/share/udm_pioneer_p3dx/hook/pythonpath.dsv'
+[7.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ara/ros2_ws/install/udm_pioneer_p3dx/share/udm_pioneer_p3dx/hook/pythonpath.sh'
+[7.824s] Level 1:colcon.colcon_core.environment:checking '/home/ara/ros2_ws/install/udm_pioneer_p3dx/bin'
+[7.824s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udm_pioneer_p3dx)
+[7.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/ara/ros2_ws/install/udm_pioneer_p3dx/share/udm_pioneer_p3dx/package.ps1'
+[7.825s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ara/ros2_ws/install/udm_pioneer_p3dx/share/udm_pioneer_p3dx/package.dsv'
+[7.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/ara/ros2_ws/install/udm_pioneer_p3dx/share/udm_pioneer_p3dx/package.sh'
+[7.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/ara/ros2_ws/install/udm_pioneer_p3dx/share/udm_pioneer_p3dx/package.bash'
+[7.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/ara/ros2_ws/install/udm_pioneer_p3dx/share/udm_pioneer_p3dx/package.zsh'
+[7.828s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ara/ros2_ws/install/udm_pioneer_p3dx/share/colcon-core/packages/udm_pioneer_p3dx)
+[7.829s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.830s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.830s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.830s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.852s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.852s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.852s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.894s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.894s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ara/ros2_ws/install/local_setup.ps1'
+[7.895s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ara/ros2_ws/install/_local_setup_util_ps1.py'
+[7.897s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ara/ros2_ws/install/setup.ps1'
+[7.906s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ara/ros2_ws/install/local_setup.sh'
+[7.907s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ara/ros2_ws/install/_local_setup_util_sh.py'
+[7.907s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ara/ros2_ws/install/setup.sh'
+[7.909s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ara/ros2_ws/install/local_setup.bash'
+[7.912s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ara/ros2_ws/install/setup.bash'
+[7.915s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ara/ros2_ws/install/local_setup.zsh'
+[7.917s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ara/ros2_ws/install/setup.zsh'

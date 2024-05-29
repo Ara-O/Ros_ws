@@ -1,0 +1,33 @@
+[0.568s] Invoking command in '/home/ara/ros2_ws/src/udm_pioneer_p3dx': PYTHONPATH=/home/ara/ros2_ws/build/udm_pioneer_p3dx/prefix_override:/home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/udm_pioneer_p3dx build --build-base /home/ara/ros2_ws/build/udm_pioneer_p3dx/build install --record /home/ara/ros2_ws/build/udm_pioneer_p3dx/install.log --install-scripts $base/lib/udm_pioneer_p3dx --single-version-externally-managed install_data
+[0.757s] running egg_info
+[0.758s] creating ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info
+[0.758s] writing ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/PKG-INFO
+[0.758s] writing dependency_links to ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/dependency_links.txt
+[0.758s] writing entry points to ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/entry_points.txt
+[0.759s] writing requirements to ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/requires.txt
+[0.759s] writing top-level names to ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/top_level.txt
+[0.761s] writing manifest file '../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/SOURCES.txt'
+[0.794s] reading manifest file '../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/SOURCES.txt'
+[0.794s] writing manifest file '../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/SOURCES.txt'
+[0.795s] running build
+[0.795s] running build_py
+[0.795s] creating /home/ara/ros2_ws/build/udm_pioneer_p3dx/build
+[0.795s] creating /home/ara/ros2_ws/build/udm_pioneer_p3dx/build/lib
+[0.795s] creating /home/ara/ros2_ws/build/udm_pioneer_p3dx/build/lib/udm_pioneer_p3dx
+[0.796s] copying udm_pioneer_p3dx/__init__.py -> /home/ara/ros2_ws/build/udm_pioneer_p3dx/build/lib/udm_pioneer_p3dx
+[0.796s] running install
+[0.797s] running install_lib
+[0.798s] creating /home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages/udm_pioneer_p3dx
+[0.798s] copying /home/ara/ros2_ws/build/udm_pioneer_p3dx/build/lib/udm_pioneer_p3dx/__init__.py -> /home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages/udm_pioneer_p3dx
+[0.799s] byte-compiling /home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages/udm_pioneer_p3dx/__init__.py to __init__.cpython-38.pyc
+[0.799s] running install_data
+[0.800s] creating /home/ara/ros2_ws/install/udm_pioneer_p3dx/share/ament_index
+[0.800s] creating /home/ara/ros2_ws/install/udm_pioneer_p3dx/share/ament_index/resource_index
+[0.800s] creating /home/ara/ros2_ws/install/udm_pioneer_p3dx/share/ament_index/resource_index/packages
+[0.800s] copying resource/udm_pioneer_p3dx -> /home/ara/ros2_ws/install/udm_pioneer_p3dx/share/ament_index/resource_index/packages
+[0.801s] copying package.xml -> /home/ara/ros2_ws/install/udm_pioneer_p3dx/share/udm_pioneer_p3dx
+[0.801s] running install_egg_info
+[0.802s] Copying ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info to /home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages/udm_pioneer_p3dx-0.0.0-py3.8.egg-info
+[0.803s] running install_scripts
+[0.822s] writing list of installed files to '/home/ara/ros2_ws/build/udm_pioneer_p3dx/install.log'
+[0.841s] Invoked command in '/home/ara/ros2_ws/src/udm_pioneer_p3dx' returned '0': PYTHONPATH=/home/ara/ros2_ws/build/udm_pioneer_p3dx/prefix_override:/home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/udm_pioneer_p3dx build --build-base /home/ara/ros2_ws/build/udm_pioneer_p3dx/build install --record /home/ara/ros2_ws/build/udm_pioneer_p3dx/install.log --install-scripts $base/lib/udm_pioneer_p3dx --single-version-externally-managed install_data

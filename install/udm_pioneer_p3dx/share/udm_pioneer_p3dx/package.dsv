@@ -1,0 +1,6 @@
+source;share/udm_pioneer_p3dx/hook/pythonpath.ps1
+source;share/udm_pioneer_p3dx/hook/pythonpath.dsv
+source;share/udm_pioneer_p3dx/hook/pythonpath.sh
+source;share/udm_pioneer_p3dx/hook/ament_prefix_path.ps1
+source;share/udm_pioneer_p3dx/hook/ament_prefix_path.dsv
+source;share/udm_pioneer_p3dx/hook/ament_prefix_path.sh

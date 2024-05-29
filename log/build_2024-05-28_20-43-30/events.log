@@ -1,0 +1,30 @@
+[0.000000] (-) TimerEvent: {}
+[0.020990] (p3dx_description) JobQueued: {'identifier': 'p3dx_description', 'dependencies': OrderedDict()}
+[0.021066] (p3dx_gazebo) JobQueued: {'identifier': 'p3dx_gazebo', 'dependencies': OrderedDict()}
+[0.021088] (udm_pioneer_p3dx) JobQueued: {'identifier': 'udm_pioneer_p3dx', 'dependencies': OrderedDict()}
+[0.021105] (p3dx_description) JobStarted: {'identifier': 'p3dx_description'}
+[0.100279] (-) TimerEvent: {}
+[0.207966] (-) TimerEvent: {}
+[0.309461] (-) TimerEvent: {}
+[0.410668] (-) TimerEvent: {}
+[0.511682] (-) TimerEvent: {}
+[0.616699] (-) TimerEvent: {}
+[0.720457] (-) TimerEvent: {}
+[0.826113] (-) TimerEvent: {}
+[0.930328] (-) TimerEvent: {}
+[1.040721] (-) TimerEvent: {}
+[1.141273] (-) TimerEvent: {}
+[1.248966] (-) TimerEvent: {}
+[1.353998] (-) TimerEvent: {}
+[1.455412] (-) TimerEvent: {}
+[1.561856] (-) TimerEvent: {}
+[1.665600] (-) TimerEvent: {}
+[1.769829] (-) TimerEvent: {}
+[1.873860] (-) TimerEvent: {}
+[1.978580] (-) TimerEvent: {}
+[2.083497] (-) TimerEvent: {}
+[2.173409] (p3dx_description) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 288, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.8/subprocess.py", line 516, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[2.173925] (p3dx_description) JobEnded: {'identifier': 'p3dx_description', 'rc': 1}
+[2.175882] (p3dx_gazebo) JobSkipped: {'identifier': 'p3dx_gazebo'}
+[2.175911] (udm_pioneer_p3dx) JobSkipped: {'identifier': 'udm_pioneer_p3dx'}
+[2.175932] (-) EventReactorShutdown: {}

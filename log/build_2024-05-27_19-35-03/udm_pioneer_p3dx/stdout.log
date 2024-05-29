@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info
+writing ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/PKG-INFO
+writing dependency_links to ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/dependency_links.txt
+writing entry points to ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/entry_points.txt
+writing requirements to ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/requires.txt
+writing top-level names to ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/top_level.txt
+writing manifest file '../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/SOURCES.txt'
+reading manifest file '../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/SOURCES.txt'
+writing manifest file '../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ara/ros2_ws/build/udm_pioneer_p3dx/build
+creating /home/ara/ros2_ws/build/udm_pioneer_p3dx/build/lib
+creating /home/ara/ros2_ws/build/udm_pioneer_p3dx/build/lib/udm_pioneer_p3dx
+copying udm_pioneer_p3dx/__init__.py -> /home/ara/ros2_ws/build/udm_pioneer_p3dx/build/lib/udm_pioneer_p3dx
+running install
+running install_lib
+creating /home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages/udm_pioneer_p3dx
+copying /home/ara/ros2_ws/build/udm_pioneer_p3dx/build/lib/udm_pioneer_p3dx/__init__.py -> /home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages/udm_pioneer_p3dx
+byte-compiling /home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages/udm_pioneer_p3dx/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/ara/ros2_ws/install/udm_pioneer_p3dx/share/ament_index
+creating /home/ara/ros2_ws/install/udm_pioneer_p3dx/share/ament_index/resource_index
+creating /home/ara/ros2_ws/install/udm_pioneer_p3dx/share/ament_index/resource_index/packages
+copying resource/udm_pioneer_p3dx -> /home/ara/ros2_ws/install/udm_pioneer_p3dx/share/ament_index/resource_index/packages
+copying package.xml -> /home/ara/ros2_ws/install/udm_pioneer_p3dx/share/udm_pioneer_p3dx
+running install_egg_info
+Copying ../../build/udm_pioneer_p3dx/udm_pioneer_p3dx.egg-info to /home/ara/ros2_ws/install/udm_pioneer_p3dx/lib/python3.8/site-packages/udm_pioneer_p3dx-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/ara/ros2_ws/build/udm_pioneer_p3dx/install.log'
