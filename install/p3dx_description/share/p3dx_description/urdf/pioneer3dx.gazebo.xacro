@@ -68,6 +68,7 @@
   <!-- ground truth -->
 	<gazebo>
 		<plugin name="p3d_base_controller" filename="libgazebo_ros_p3d.so">
+			<body_name>base_link</body_name>
 			<alwaysOn>true</alwaysOn>
 			<updateRate>100.0</updateRate>
 			<bodyName>base_link</bodyName>
