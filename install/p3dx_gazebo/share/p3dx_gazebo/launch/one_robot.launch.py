@@ -63,13 +63,13 @@ def spawn_robot(context, *args, **kwargs):
         ),
 
         # Joint State Publisher
-        Node(
-            package='joint_state_publisher',
-            executable='joint_state_publisher',
-            name='joint_state_publisher',
-            parameters=[{'use_gui': False}],
-            remappings=[('/robot_description', 'robot_description')]
-        ),
+        #Node(
+        #    package='joint_state_publisher',
+        #    executable='joint_state_publisher',
+        #    name='joint_state_publisher',
+        #    parameters=[{'use_gui': False}],
+        #    remappings=[('/robot_description', 'robot_description')]
+        #),
     ]
 
 if __name__ == '__main__':

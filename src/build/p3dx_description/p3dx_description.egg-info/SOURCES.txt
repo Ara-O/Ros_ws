@@ -13,3 +13,7 @@ resource/p3dx_description
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+urdf/pioneer3dx.gazebo.xacro
+urdf/pioneer3dx.xacro
+urdf/pioneer3dx_1.gazebo.xacro
+urdf/pioneer3dx_wheel.xacro

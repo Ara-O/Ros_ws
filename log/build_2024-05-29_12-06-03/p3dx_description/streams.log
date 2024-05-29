@@ -1,0 +1,21 @@
+[0.596s] Invoking command in '/home/ara/ros2_ws/src/p3dx_description': PYTHONPATH=/home/ara/ros2_ws/build/p3dx_description/prefix_override:/home/ara/ros2_ws/install/p3dx_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/p3dx_description build --build-base /home/ara/ros2_ws/build/p3dx_description/build install --record /home/ara/ros2_ws/build/p3dx_description/install.log --install-scripts $base/lib/p3dx_description --single-version-externally-managed install_data
+[0.776s] running egg_info
+[0.777s] writing ../../build/p3dx_description/p3dx_description.egg-info/PKG-INFO
+[0.777s] writing dependency_links to ../../build/p3dx_description/p3dx_description.egg-info/dependency_links.txt
+[0.778s] writing entry points to ../../build/p3dx_description/p3dx_description.egg-info/entry_points.txt
+[0.778s] writing requirements to ../../build/p3dx_description/p3dx_description.egg-info/requires.txt
+[0.778s] writing top-level names to ../../build/p3dx_description/p3dx_description.egg-info/top_level.txt
+[0.812s] reading manifest file '../../build/p3dx_description/p3dx_description.egg-info/SOURCES.txt'
+[0.813s] writing manifest file '../../build/p3dx_description/p3dx_description.egg-info/SOURCES.txt'
+[0.813s] running build
+[0.813s] running build_py
+[0.814s] running install
+[0.815s] running install_lib
+[0.816s] running install_data
+[0.816s] copying urdf/pioneer3dx.gazebo.xacro -> /home/ara/ros2_ws/install/p3dx_description/share/p3dx_description/urdf
+[0.816s] running install_egg_info
+[0.818s] removing '/home/ara/ros2_ws/install/p3dx_description/lib/python3.8/site-packages/p3dx_description-0.0.0-py3.8.egg-info' (and everything under it)
+[0.818s] Copying ../../build/p3dx_description/p3dx_description.egg-info to /home/ara/ros2_ws/install/p3dx_description/lib/python3.8/site-packages/p3dx_description-0.0.0-py3.8.egg-info
+[0.819s] running install_scripts
+[0.835s] writing list of installed files to '/home/ara/ros2_ws/build/p3dx_description/install.log'
+[0.861s] Invoked command in '/home/ara/ros2_ws/src/p3dx_description' returned '0': PYTHONPATH=/home/ara/ros2_ws/build/p3dx_description/prefix_override:/home/ara/ros2_ws/install/p3dx_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/p3dx_description build --build-base /home/ara/ros2_ws/build/p3dx_description/build install --record /home/ara/ros2_ws/build/p3dx_description/install.log --install-scripts $base/lib/p3dx_description --single-version-externally-managed install_data

@@ -47,8 +47,8 @@
         <alwaysOn>true</alwaysOn>
         <updateRate>40</updateRate>
         <legacyMode>false</legacyMode>
-        <leftJoint>base_right_wheel_joint</leftJoint>
-        <rightJoint>base_left_wheel_joint</rightJoint>
+   <!--     <leftJoint>base_right_wheel_joint</leftJoint> -->
+     <!--   <rightJoint>base_left_wheel_joint</rightJoint> -->
         <wheelSeparation>0.39</wheelSeparation>
         <wheelDiameter>0.15</wheelDiameter>
         <torque>5</torque>

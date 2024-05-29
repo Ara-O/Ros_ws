@@ -76,5 +76,5 @@ def generate_launch_description():
                     'tf_prefix': LaunchConfiguration('tf_prefix_robot2')
                 }.items()
             ),
-        ], condition=IfCondition(LaunchConfiguration('robot_name_robot2'))),
+        ], condition=IfCondition(LaunchConfiguration('robot2'))),
     ])
